@@ -78,7 +78,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register Children's House</title>
+    <title>Login cool soft</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -100,7 +100,7 @@
 </head>
 <body>
 
-    <div class="bg-top navbar-light">
+    {{-- <div class="bg-top navbar-light">
         <div class="container">
             <div class="row no-gutters d-flex align-items-center align-items-stretch">
                 <div class="col-md-4 d-flex align-items-center py-4">
@@ -122,18 +122,18 @@
                                 <span>Call Us: +94 1234567</span>
                             </div>
                         </div>
-                        {{-- <div class="col-md topper d-flex align-items-center justify-content-end">
+                        <div class="col-md topper d-flex align-items-center justify-content-end">
                             <p class="mb-0">
                                 <a href="{{ URL::to('/sign_in') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
                                     <span>Sign In</span>
                                 </a>
                             </p>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container d-flex align-items-center px-4">
@@ -150,13 +150,13 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
-                    <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
+                    {{-- <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
                     <li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                     <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
-                    <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
+                    <li class="nav-item active"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
                 </ul>
             </div>
         </div>
@@ -296,90 +296,43 @@
 
 {{-- ********************************************************************************************* --}}
 
-<footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-6 col-lg-3">
-              <div class="ftco-footer-widget mb-5">
-                  <h2 class="ftco-heading-2">Have a Questions?</h2>
-                  <div class="block-23 mb-3">
-                    <ul>
-                      <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                      <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                      <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="ftco-footer-widget mb-5">
-                <h2 class="ftco-heading-2">Recent Blog</h2>
-                <div class="block-21 mb-4 d-flex">
-                  <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                  <div class="text">
-                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                      <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="block-21 mb-5 d-flex">
-                  <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                  <div class="text">
-                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                      <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="ftco-footer-widget mb-5 ml-md-4">
-                <h2 class="ftco-heading-2">Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="ftco-footer-widget mb-5">
-                  <h2 class="ftco-heading-2">Subscribe Us!</h2>
-                <form action="#" class="subscribe-form">
-                  <div class="form-group">
-                    <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                    <input type="submit" value="Subscribe" class="form-control submit px-3">
-                  </div>
-                </form>
-              </div>
-              <div class="ftco-footer-widget mb-5">
-                  <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
-                  <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-
-              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
+<footer class="ftco-footer ftco-footer-2 ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Knights</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
           </div>
         </div>
-      </footer>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://darkcool.com" target="_blank">DarkCool</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </div>
+  </footer> <!-- END footer -->
 
 
 

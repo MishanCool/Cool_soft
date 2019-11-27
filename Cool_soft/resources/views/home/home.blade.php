@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Children's House</title>
+    <title>Cool Soft Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -71,11 +71,11 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
+	        	{{-- <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/staf') }}" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                 <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
                 <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
 	        </ul>

@@ -82,7 +82,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register Children's House</title>
+    <title>Register Cool soft</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -154,11 +154,11 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
-                    <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
+                    {{-- <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
                     <li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                     <li class="nav-item active"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
                     <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign Up</a></li>
                 </ul>
