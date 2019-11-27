@@ -96,6 +96,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="my_css/loginForgoten.css">
 
 </head>
 <body>
@@ -202,7 +203,7 @@
                                 @enderror
                         </div>
 
-                        <div class="d-md-flex">
+                        <div class="d-md-flex" id="forgoten_password">
                                 <div class="form-group row">
                                         <div class="col-md-6 offset-md-4">
                                             <div class="form-check">
