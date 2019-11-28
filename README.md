@@ -14,4 +14,7 @@ php artisan ui vue --auth
 php artisan config:cache
 
 # Database: Migrations
+php artisan make:model Order -m   -> create model with migrations
 php artisan migrate
+
+php artisan migrate:rollback
