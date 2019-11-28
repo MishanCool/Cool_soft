@@ -180,34 +180,110 @@
         </main>
     </div> --}}
 
-    <div class="contact-section">
+            {{-- <div class="contact-section"> --}}
 
-        <div class="col-md-4">
-            <div class="card">
-                        <img src="/w3images/team2.jpg" alt="{{ Auth::user()->name }}" style="width:100%">
-                        <h1><a class="lable" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
-                        </h1>
-                            <p class="title">{{ Auth::user()->email }}</p>
+                    {{-- <div class="row"> --}}
+                            {{-- <div class="col-md-4"> --}}
+                                    {{-- <div class="card">
+                                                <img src="/w3images/team2.jpg" alt="{{ Auth::user()->name }}" style="width:100%">
+                                                <h1><a class="lable" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                        {{ Auth::user()->name }} <span class="caret"></span>
+                                                    </a>
+                                                </h1>
+                                                    <p class="title">{{ Auth::user()->email }}</p>
 
-                            <div style="margin: 24px 0;">
-                              <a href="#"><i class="fa fa-dribbble"></i></a>
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
-                              <a href="#"><i class="fa fa-facebook"></i></a>
-                            </div>
-                            <p><button><a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">Sign Out</a>
+                                                    <div style="margin: 24px 0;">
+                                                      <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                      <a href="#"><i class="fa fa-twitter"></i></a>
+                                                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                      <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    </div>
+                                                    <p><button><a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
+                                                        document.getElementById('logout-form').submit();">Sign Out</a>
 
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                            </button></p>
-            </div>
-        </div>
+                                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                            @csrf
+                                                        </form>
+                                                    </button></p>
+                                    </div> --}}
+                            {{-- </div> --}}
 
-    </div>
+                            {{-- <div class="col-md-8 ml-5"> --}}
+
+                                        <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+                                                <div class="container">
+                                                    <div class="row d-flex align-items-stretch no-gutters">
+                                            <div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
+
+                                                <form action="{{URL::to('/order')}}" method="POST">
+                                                    @csrf
+
+                                                  <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <input type="text" class="form-control" name="email" placeholder="Your Email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <input type="text" class="form-control" name="phone_num" placeholder="phone_num">
+                                                  </div>
+                                                  <div class="form-group">
+                                                        <input type="text" class="form-control" name="city" placeholder="city">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="country" placeholder="country">
+                                                    </div>
+                                                  <div class="form-group">
+                                                        <input type="text"  class="form-control" name="order" placeholder="Order">
+                                                    {{-- <textarea name="" id="" cols="30" rows="7" class="form-control" name="order" placeholder="order"></textarea> --}}
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <input type="submit" value="Place Order" class="btn btn-primary py-3 px-5">
+                                                  </div>
+                                                </form>
+
+                                                        </div>
+                                                        {{-- <div class="col-md-6 d-flex align-items-stretch">
+                                                            <div id="map"></div>
+                                                        </div> --}}
+
+                                                        <div class="card">
+                                                                <img src="/w3images/team2.jpg" alt="{{ Auth::user()->name }}" style="width:100%">
+                                                                <h1><a class="lable" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                                        {{ Auth::user()->name }} <span class="caret"></span>
+                                                                    </a>
+                                                                </h1>
+                                                                    <p class="title">{{ Auth::user()->email }}</p>
+
+                                                                    <div style="margin: 24px 0;">
+                                                                      <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                                      <a href="#"><i class="fa fa-twitter"></i></a>
+                                                                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                                      <a href="#"><i class="fa fa-facebook"></i></a>
+                                                                    </div>
+                                                                    <p><button><a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
+                                                                        document.getElementById('logout-form').submit();">Sign Out</a>
+
+                                                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                                            @csrf
+                                                                        </form>
+                                                                    </button></p>
+                                                    </div>
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                            {{-- </div> --}}
+                    {{-- </div> --}}
+
+
+
+                {{-- </div> --}}
+
 
 </body>
 </html>

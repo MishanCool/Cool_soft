@@ -19,6 +19,9 @@ Route::get('/w', function () {
     return view('/welcome');
 });
 
+// Route::resource('/order','OrderController');
+Route::post('/order','OrderController@store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
