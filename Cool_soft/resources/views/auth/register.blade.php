@@ -160,7 +160,7 @@
                     <li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                     <li class="nav-item active"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
-                    <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign Up</a></li>
+                    <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
                 </ul>
             </div>
         </div>

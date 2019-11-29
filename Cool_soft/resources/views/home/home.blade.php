@@ -63,6 +63,8 @@
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
           </div>
         </div>
+
+        {{-- Not valied yet --}}
     		{{-- <div class="row">
     			<div class="col-md-12 ftco-animate">
     				<div class="carousel-team owl-carousel">
@@ -141,7 +143,7 @@
           <div class="row mb-5">
             <div class="col-md">
               <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2">Knights</h2>
+                <h2 class="ftco-heading-2">DARK COOL</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
