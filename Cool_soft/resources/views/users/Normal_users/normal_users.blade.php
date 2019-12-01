@@ -211,7 +211,7 @@
                             {{-- <div class="col-md-8 ml-5"> --}}
 <section>
         <div class="container-fluid">
-                <div class="row">
+                <div class="row mb-5">
 
                     <div class="col-md-4">
                             <div class="card" style="width: 200px; height:200px">
@@ -239,88 +239,78 @@
                     </div>
 
 
-                    <div class="col-md-8">
-                            <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
-                                    <div class="container">
-                                        <div class="row d-flex align-items-stretch no-gutters">
-                                <div class="col-md-8 p-4 p-md-8 order-md-last bg-light">
-
-                                    <form action="{{URL::to('/order')}}" method="POST">
-                                        @csrf
-
-                                      <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Your Name">
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="text" class="form-control" name="email" placeholder="Your Email">
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="text" class="form-control" name="phone_num" placeholder="phone_num">
-                                      </div>
-                                      <div class="form-group">
-                                            <input type="text" class="form-control" name="city" placeholder="city">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="country" placeholder="country">
-                                        </div>
-                                      <div class="form-group">
-                                            <input type="text"  class="form-control" name="order" placeholder="Order">
-                                        {{-- <textarea name="" id="" cols="30" rows="7" class="form-control" name="order" placeholder="order"></textarea> --}}
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="submit" value="Place Order" class="btn btn-primary py-3 px-5">
-                                      </div>
-                                    </form>
-
-                                            </div>
-                                            {{-- <div class="col-md-6 d-flex align-items-stretch">
-                                                <div id="map"></div>
-                                            </div> --}}
-
-                                        </div>
-                                    </div>
-                                </section>
-                    </div>
+                    {{-- <div class="col-md-8">
+                        <button disabled="disabled">Orders</button>
+                    </div> --}}
 
                 </div>
             </div>
 </section>
 
-    {{-- **************************************************************************************************************************** --
-    <section class="ftco-section ftco-no-pt ftc-no-pb">
-			<div class="container">
-				<div class="row d-flex">
-					<div class="col-md-8 order-md-last wrap-about wrap-about d-flex align-items-stretch">
+{{-- <section> --}}
+    <div class="container-fluid">
+        <div class="row">
 
-                    </div>
+            <div class="col-md-6">
+
+                    <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+
+                            <div class="containe text-center" style="width:900px;">
+                                    <h3>Place Order Here</h3>
+                                <div class="row d-flex align-items-stretch no-gutters">
+                        <div class="col-md-8 p-4 p-md-8 order-md-last bg-light">
+
+                            <form action="{{URL::to('/order')}}" method="POST">
+                                @csrf
+
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="email" placeholder="Your Email">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="phone_num" placeholder="phone_num">
+                              </div>
+                              <div class="form-group">
+                                    <input type="text" class="form-control" name="city" placeholder="city">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="country" placeholder="country">
+                                </div>
+                              <div class="form-group">
+                                    <input type="text"  class="form-control" name="order" placeholder="Order">
+                                {{-- <textarea name="" id="" cols="30" rows="7" class="form-control" name="order" placeholder="order"></textarea> --}}
+                              </div>
+                              <div class="form-group">
+                                <input type="submit" value="Place Order" class="btn btn-primary py-3 px-5">
+                              </div>
+                            </form>
+
+                                    </div>
+                                    {{-- <div class="col-md-6 d-flex align-items-stretch">
+                                        <div id="map"></div>
+                                    </div> --}}
+
+                                </div>
+                            </div>
+                        </section>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="container text-center">
+                    <h3>Upades</h3>
+                    <p>jhsfdlhbjnlbh3fiukkncdbfbn,damnfm fuvjhjanvbhj  fhgk jmn fh hfdcnbvsd uegykjwncmnvfvlajjdvbjkbshwh</p>
+                    <p>kjsfvkjhb kjvhbkjfbhvjsdfvmn kjhgwfnvbkjhc uwbhgkjvfjfa l   iueghvqifhu  ih l rihhf iow iuherfvfiohfl gwgo l </p>
+                </div>
+            </div>
+
+    </div>
+    </div>
+{{-- </section> --}}
 
 
-					<div class="col-md-4 wrap-about py-5 pr-md-4 ftco-animate">
-
-                    </div>
-				</div>
-			</div>
-		</section>
-    {{-- **************************************************************************************************************************** --}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            {{-- </div> --}}
-                    {{-- </div> --}}
-
-
-
-                {{-- </div> --}}
 
 
                 <footer class="ftco-footer ftco-footer-2 ftco-section">
