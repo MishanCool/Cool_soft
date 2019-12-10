@@ -36,3 +36,22 @@
   button:hover, a:hover {
     opacity: 0.7;
   }
+
+#dash-box{
+    width: auto;
+    height: auto;
+    background-color: blue;
+}
+
+#box-button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:yellow;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+}

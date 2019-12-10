@@ -18,3 +18,10 @@ php artisan make:model Order -m   -> create model with migrations
 php artisan migrate
 
 php artisan migrate:rollback
+
+# Drop all tables
+php artisan migrate:fresh
+
+#Create midleware
+php artisan make:middleware chekRole
+
