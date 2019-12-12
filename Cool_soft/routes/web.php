@@ -29,3 +29,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin',function() {
     return view('/users/admin/dashboard');
 })->name('admin');
+
+Route::get('/new_mod',function() {
+    return view('/users/admin/new_mod');
+})->name('new_mod');

@@ -108,7 +108,7 @@
                     </section>
 
                     <section class="container text-center" id="box-button">
-                         <button onclick="window.location='{{ route(new_mod) }}'" disabled="disabled">Add Modarator</button>
+                         <button disabled="disabled">Add Modarator</button>
                          <button disabled="disabled">aaaa</button>
                          <button disabled="disabled">ddfff</button>
                          <button disabled="disabled">ddhh</button>
@@ -116,7 +116,7 @@
                     </section>
             </div>
 
-            {{-- <div class="col-md-6">
+            <div class="col-md-6">
 
                     <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 
@@ -158,15 +158,15 @@
                             </div>
                         </section>
 
-            </div> --}}
+            </div>
 
-            <div class="col-md-6">
+            {{-- <div class="col-md-6">
                 <div class="container text-center">
                     <h3>Upades</h3>
                     <p>jhsfdlhbjnlbh3fiukkncdbfbn,damnfm fuvjhjanvbhj  fhgk jmn fh hfdcnbvsd uegykjwncmnvfvlajjdvbjkbshwh</p>
                     <p>kjsfvkjhb kjvhbkjfbhvjsdfvmn kjhgwfnvbkjhc uwbhgkjvfjfa l   iueghvqifhu  ih l rihhf iow iuherfvfiohfl gwgo l </p>
                 </div>
-            </div>
+            </div> --}}
 
     </div>
     </div>
