@@ -120,7 +120,6 @@
 
             <div class="col-md-6">
 
-
                     <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 
                             <div class="containe text-center" style="width:900px;">
