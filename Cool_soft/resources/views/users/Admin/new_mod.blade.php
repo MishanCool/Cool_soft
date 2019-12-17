@@ -123,7 +123,7 @@
                     <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 
                             <div class="containe text-center" style="width:900px;">
-                                    <h3>Place Order Here</h3>
+                                    <h3>Add Moderater</h3>
                                 <div class="row d-flex align-items-stretch no-gutters">
                         <div class="col-md-8 p-4 p-md-8 order-md-last bg-light">
 
@@ -131,13 +131,13 @@
                                 @csrf
 
                               <div class="form-group">
-                                <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                <input type="text" class="form-control" name="name" placeholder="Mod Name">
                               </div>
                               <div class="form-group">
-                                <input type="text" class="form-control" name="email" placeholder="Your Email">
+                                <input type="text" class="form-control" name="email" placeholder="Mod Email">
                               </div>
                               <div class="form-group">
-                                <input type="text" class="form-control" name="phone_num" placeholder="phone_num">
+                                <input type="text" class="form-control" name="phone_num" placeholder="Mod Phone Number">
                               </div>
                               <div class="form-group">
                                     <input type="text" class="form-control" name="city" placeholder="city">
@@ -146,11 +146,11 @@
                                     <input type="text" class="form-control" name="country" placeholder="country">
                                 </div>
                               <div class="form-group">
-                                    <input type="text"  class="form-control" name="order" placeholder="Order">
+                                    <input type="text"  class="form-control" name="order" placeholder="about">
 
                               </div>
                               <div class="form-group">
-                                <input type="submit" value="Place Order" class="btn btn-primary py-3 px-5">
+                                <input type="submit" value="Add" class="btn btn-primary py-3 px-5">
                               </div>
                             </form>
 
