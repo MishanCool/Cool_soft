@@ -16,8 +16,16 @@ class chekRole
     public function handle($request, Closure $next)
     {
         if(Auth::user()->role=='admin')
+        {
             return redirect()->route('admin');
             return $next($request);
+        }
+
+        elseif(Auth::user()->role=='mod')
+        {
+            return redirect()->route('mod');
+            return $next($request);
+        }
 
 
     }

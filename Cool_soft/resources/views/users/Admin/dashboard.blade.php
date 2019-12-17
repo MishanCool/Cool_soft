@@ -108,7 +108,7 @@
                     </section>
 
                     <section class="container text-center" id="box-button">
-                         <button onclick="window.location='{{ route(new_mod) }}'" disabled="disabled">Add Modarator</button>
+                         <button onclick="window.location='{{ url('\new_mod') }}'" disabled="disabled">Add Modarator</button>
                          <button disabled="disabled">aaaa</button>
                          <button disabled="disabled">ddfff</button>
                          <button disabled="disabled">ddhh</button>

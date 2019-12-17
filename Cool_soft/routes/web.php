@@ -33,3 +33,7 @@ Route::get('/admin',function() {
 Route::get('/new_mod',function() {
     return view('/users/admin/new_mod');
 })->name('new_mod');
+
+Route::get('/mod',function() {
+    return view('/users/mod/mod_dashboard');
+})->name('mod');
