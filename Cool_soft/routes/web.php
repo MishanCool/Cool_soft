@@ -37,3 +37,8 @@ Route::get('/new_mod',function() {
 Route::get('/mod',function() {
     return view('/users/mod/mod_dashboard');
 })->name('mod');
+
+
+Route::get('/register',function() {
+    return view('/auth/register');
+})->name('register');

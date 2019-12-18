@@ -162,14 +162,6 @@
 
             </div>
 
-            {{-- <div class="col-md-6">
-                <div class="container text-center">
-                    <h3>Upades</h3>
-                    <p>jhsfdlhbjnlbh3fiukkncdbfbn,damnfm fuvjhjanvbhj  fhgk jmn fh hfdcnbvsd uegykjwncmnvfvlajjdvbjkbshwh</p>
-                    <p>kjsfvkjhb kjvhbkjfbhvjsdfvmn kjhgwfnvbkjhc uwbhgkjvfjfa l   iueghvqifhu  ih l rihhf iow iuherfvfiohfl gwgo l </p>
-                </div>
-            </div> --}}
-
     </div>
     </div>
 {{-- </section> --}}
