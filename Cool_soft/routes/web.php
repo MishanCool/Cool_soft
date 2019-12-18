@@ -39,6 +39,6 @@ Route::get('/mod',function() {
 })->name('mod');
 
 
-Route::get('/register',function() {
-    return view('/auth/register');
-})->name('register');
+// Route::get('/register',function() {
+//     return view('/auth/register');
+// })->name('register');
