@@ -18,14 +18,15 @@ class chekRole
         if(Auth::user()->role=='admin')
         {
             return redirect()->route('admin');
-            return $next($request);
-        }
 
-        elseif(Auth::user()->role=='mod')
+        }
+        if(Auth::user()->role=='mod')
         {
             return redirect()->route('mod');
-            return $next($request);
+
         }
+
+        return $next($request);
 
 
     }
