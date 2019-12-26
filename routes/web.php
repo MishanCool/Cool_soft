@@ -19,6 +19,10 @@ Route::get('/w', function () {
     return view('/welcome');
 });
 
+Route::get('/about', function () {
+    return view('/nav_bar/about_us');
+});
+
 // Route::resource('/order','OrderController');
 Route::post('/order','OrderController@store');
 
